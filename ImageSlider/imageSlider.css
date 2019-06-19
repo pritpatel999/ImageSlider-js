@@ -1,0 +1,47 @@
+:root{
+    --mainWhite:#f2fdff;
+    --mainBlue:#3e92cc;
+}
+/* 
+.max-height{
+    min-height: 100vh;
+} */
+body{
+    background: var(--mainWhite)
+}
+.img-container{
+    min-height: 60vh;
+    max-width: 600px;
+    background:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.4)),url('img/ps1.jpg')center/cover fixed no-repeat;
+    border: 0.5rem solid var(--mainBlue);
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0px auto;
+    margin-top: 120px;
+}
+
+
+.fa{
+color:white;
+/* border:10px solid pink; */
+/* width:40px; */
+height: 40px; 
+padding:20px; 
+padding-top: 0px;
+background-color: var(--mainBlue);
+cursor: pointer;
+}
+
+.fa-caret-left{
+    width:30px;
+    text-align: center;
+    margin-left:-40px;
+    padding-left: 10px;
+}
+
+.fa-caret-right{
+    width:20px;
+    text-align: center;
+    margin-right:-45px;
+}
